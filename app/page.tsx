@@ -58,6 +58,16 @@ const categories = [
     detail: "Low-profile glow with brass, bronze, and opal finishes",
     image: "/real/curved-sconce.jpg",
   },
+  {
+    name: "Outdoor & Garden",
+    detail: "Bollards, sensor sconces, lanterns, and landscape spots",
+    image: "/real/kuzco-aurora-light.jpg",
+  },
+  {
+    name: "Vanity & Bath",
+    detail: "Linear mirror lights and damp-rated architectural glow",
+    image: "/real/kuzco-vibe-menu.png",
+  },
 ];
 
 const products = [
@@ -141,6 +151,177 @@ const products = [
     swatches: ["#ff9f5a", "#78c6aa", "#829bf0"],
     specs: "App scenes, voice control, tuneable white and color",
   },
+  {
+    name: "Snowfall Crystal Dining Chandelier",
+    type: "Chandelier",
+    price: "$1,820",
+    was: "$2,160",
+    badge: "Statement",
+    image: "/real/kuzco-artboard-modern.jpg",
+    swatches: ["#f1eee8", "#c7a56a", "#232323"],
+    specs: "Layered crystal branches, warm dining-room sparkle",
+  },
+  {
+    name: "Aurora Garden Path Bollard",
+    type: "Outdoor Light",
+    price: "$186",
+    was: "$240",
+    badge: "Landscape",
+    image: "/real/kuzco-aurora-light.jpg",
+    swatches: ["#222621", "#c28a43", "#6c785f"],
+    specs: "Low-voltage path light, shielded warm garden glow",
+  },
+  {
+    name: "Insight Pavilion Pendant",
+    type: "Pendant Light",
+    price: "$734",
+    was: "$890",
+    badge: "Architectural",
+    image: "/real/kuzco-insight-brand.jpg",
+    swatches: ["#1d2323", "#d6c5a3", "#7c8a88"],
+    specs: "Large-scale suspended glow for atriums and covered patios",
+  },
+  {
+    name: "Vibe Linear Vanity Light",
+    type: "Vanity Light",
+    price: "$328",
+    was: "$410",
+    badge: "Bath Edit",
+    image: "/real/kuzco-vibe-menu.png",
+    swatches: ["#b78a4a", "#f3eee4", "#2e2a25"],
+    specs: "Slim mirror bar, warm diffused output, damp rated",
+  },
+  {
+    name: "Frame Glass Outdoor Sconce",
+    type: "Outdoor Light",
+    price: "$178",
+    was: "$229",
+    badge: "Sensor",
+    image: "/real/lucide-arch-floor.jpg",
+    swatches: ["#151515", "#efdfb0", "#8a6040"],
+    specs: "Clear glass housing, exposed bulb, motion-ready entry light",
+  },
+  {
+    name: "Cylindro Up-Down Wall Light",
+    type: "Wall Sconce",
+    price: "$149",
+    was: "$189",
+    badge: "Low Profile",
+    image: "/real/lucide-cage-pendant.jpg",
+    swatches: ["#181818", "#e8dfce", "#b68b49"],
+    specs: "Compact cylinder, two-way wash, modern hallway glow",
+  },
+  {
+    name: "Axis Adjustable Task Spot",
+    type: "Desk Lamp",
+    price: "$96",
+    was: "$128",
+    badge: "Task",
+    image: "/real/lucide-cone-lamp.jpg",
+    swatches: ["#151515", "#c7b591", "#ffffff"],
+    specs: "Directional head, compact base, focused reading light",
+  },
+  {
+    name: "Duo White Ceiling Spot",
+    type: "Ceiling Light",
+    price: "$118",
+    was: "$152",
+    badge: "Kitchen",
+    image: "/real/lucide-duo-globe.jpg",
+    swatches: ["#ffffff", "#f5e6c8", "#2e302d"],
+    specs: "Twin adjustable spots, clean white finish, 3000K ready",
+  },
+  {
+    name: "Globe Outdoor Wall Sconce",
+    type: "Outdoor Light",
+    price: "$136",
+    was: "$168",
+    badge: "Wet Rated",
+    image: "/real/lucide-globe-outdoor.jpg",
+    swatches: ["#ffffff", "#f6e9bd", "#cacaca"],
+    specs: "Rounded shade, gentle porch light, compact footprint",
+  },
+  {
+    name: "Slimline Floor Task Lamp",
+    type: "Floor Lamp",
+    price: "$242",
+    was: "$310",
+    badge: "Minimal",
+    image: "/real/lucide-linear-ceiling.jpg",
+    swatches: ["#151515", "#dcc69a", "#f1eee7"],
+    specs: "Tall linear profile, reading beam, small-space base",
+  },
+  {
+    name: "Grid Porch Lantern",
+    type: "Outdoor Lantern",
+    price: "$204",
+    was: "$268",
+    badge: "Entryway",
+    image: "/real/lucide-modern-lantern.jpg",
+    swatches: ["#111111", "#f1d68c", "#6d5746"],
+    specs: "Caged glass lantern, exposed bulb, covered outdoor use",
+  },
+  {
+    name: "Steel Sensor Cylinder Sconce",
+    type: "Outdoor Light",
+    price: "$154",
+    was: "$198",
+    badge: "Motion",
+    image: "/real/lucide-mushroom-table.jpg",
+    swatches: ["#9d9d93", "#222222", "#f0e1b0"],
+    specs: "Brushed steel body, PIR sensor, garage or side-door light",
+  },
+  {
+    name: "Black Box Sensor Wall Light",
+    type: "Outdoor Light",
+    price: "$132",
+    was: "$170",
+    badge: "Modern",
+    image: "/real/lucide-outdoor-column.jpg",
+    swatches: ["#111111", "#dfbd77", "#f6f2e8"],
+    specs: "Rectangular beam, integrated sensor, clean facade lighting",
+  },
+  {
+    name: "Dome Portable Patio Lamp",
+    type: "Table Lamp",
+    price: "$119",
+    was: "$154",
+    badge: "Portable",
+    image: "/real/lucide-portable-sphere.jpg",
+    swatches: ["#111111", "#e9d59b", "#6f5544"],
+    specs: "Rechargeable outdoor-safe lamp, mushroom shade, soft table glow",
+  },
+  {
+    name: "Sphere Accent Light",
+    type: "Accent Light",
+    price: "$88",
+    was: "$116",
+    badge: "Glow",
+    image: "/real/lucide-spot-cylinder.jpg",
+    swatches: ["#f7dd88", "#ffffff", "#d7cfc2"],
+    specs: "Orb diffuser, shelf or bedside ambience, warm LED compatible",
+  },
+  {
+    name: "Spike Garden Spot",
+    type: "Outdoor Spot",
+    price: "$74",
+    was: "$98",
+    badge: "Garden",
+    image: "/real/lucide-wall-black.jpg",
+    swatches: ["#101010", "#d7be83", "#61705e"],
+    specs: "Adjustable spike spotlight for trees, planters, and paths",
+  },
+];
+
+const galleryHighlights = [
+  "/real/kuzco-artboard-modern.jpg",
+  "/real/kuzco-aurora-light.jpg",
+  "/real/kuzco-vibe-menu.png",
+  "/real/lucide-modern-lantern.jpg",
+  "/real/lucide-linear-ceiling.jpg",
+  "/real/lucide-duo-globe.jpg",
+  "/real/lucide-portable-sphere.jpg",
+  "/real/lucide-wall-black.jpg",
 ];
 
 const rooms = [
@@ -313,11 +494,31 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="image-wall" aria-labelledby="image-wall-title">
+        <div className="image-wall-heading">
+          <p className="eyebrow">Modern lighting wall</p>
+          <h2 id="image-wall-title">更多现代灯具造型，一眼看完整体氛围。</h2>
+          <p>
+            从餐厅吊灯、浴室镜前灯到户外花园灯，把更多真实产品和空间图片放到页面中，
+            让浏览节奏更像完整灯具商城。
+          </p>
+        </div>
+        <div className="image-wall-grid">
+          {galleryHighlights.map((image, index) => (
+            <img
+              src={image}
+              alt={`Modern lighting inspiration ${index + 1}`}
+              key={image}
+            />
+          ))}
+        </div>
+      </section>
+
       <section className="shop-band" id="products">
         <div className="shop-header">
           <div>
             <p className="eyebrow">Popular lighting</p>
-            <h2>Real fixtures customers keep saving.</h2>
+            <h2>更多现代灯具产品，按空间与功能浏览。</h2>
           </div>
           <div className="sort-control">
             <span>Sort by</span>
@@ -334,7 +535,16 @@ export default function Home() {
           <aside className="filters" aria-label="Product filters">
             <details open>
               <summary>Fixture Type</summary>
-              {["Pendant", "Chandelier", "Table Lamp", "Wall Sconce", "Outdoor"].map(
+              {[
+                "Pendant",
+                "Chandelier",
+                "Floor Lamp",
+                "Table Lamp",
+                "Wall Sconce",
+                "Vanity",
+                "Outdoor",
+                "Spot Light",
+              ].map(
                 (item) => (
                   <label key={item}>
                     <input type="checkbox" /> {item}

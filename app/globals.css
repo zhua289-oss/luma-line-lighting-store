@@ -536,6 +536,63 @@ select {
   grid-row: span 2;
 }
 
+.image-wall {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+  gap: clamp(1.2rem, 4vw, 3.6rem);
+  align-items: start;
+  background: var(--bone);
+  padding: clamp(3.2rem, 7vw, 6.2rem) clamp(1rem, 5vw, 4rem);
+}
+
+.image-wall-heading {
+  position: sticky;
+  top: 170px;
+  max-width: 520px;
+}
+
+.image-wall-heading h2 {
+  margin: 0.25rem 0 0;
+  font-size: clamp(2rem, 3.5vw, 3.7rem);
+  font-weight: 950;
+  line-height: 1.04;
+}
+
+.image-wall-heading p:not(.eyebrow) {
+  color: var(--muted);
+  line-height: 1.68;
+}
+
+.image-wall-grid {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.image-wall-grid img {
+  width: 100%;
+  min-height: 180px;
+  aspect-ratio: 1 / 1;
+  border: 1px solid rgba(23, 26, 23, 0.1);
+  border-radius: 8px;
+  background: #f1ede5;
+  box-shadow: 0 18px 48px rgba(39, 31, 22, 0.08);
+  object-fit: cover;
+}
+
+.image-wall-grid img:nth-child(1),
+.image-wall-grid img:nth-child(3) {
+  grid-column: span 2;
+  aspect-ratio: 1.45 / 1;
+}
+
+.image-wall-grid img:nth-child(2),
+.image-wall-grid img:nth-child(7) {
+  grid-row: span 2;
+  aspect-ratio: 1 / 1.55;
+}
+
 .shop-band {
   background: #eef0e8;
 }
@@ -871,6 +928,7 @@ select {
   .stat-band,
   .service-band,
   .editorial-band,
+  .image-wall,
   .product-detail,
   .guide-section,
   .site-footer {
@@ -918,6 +976,15 @@ select {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .image-wall-heading {
+    position: static;
+    max-width: 760px;
+  }
+
+  .image-wall-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -958,8 +1025,20 @@ select {
   .filters,
   .gallery-strip,
   .room-grid,
+  .image-wall-grid,
   .editorial-gallery {
     grid-template-columns: 1fr;
+  }
+
+  .image-wall-grid img,
+  .image-wall-grid img:nth-child(1),
+  .image-wall-grid img:nth-child(2),
+  .image-wall-grid img:nth-child(3),
+  .image-wall-grid img:nth-child(7) {
+    grid-column: auto;
+    grid-row: auto;
+    min-height: 260px;
+    aspect-ratio: 1.18 / 1;
   }
 
   .category-card,
