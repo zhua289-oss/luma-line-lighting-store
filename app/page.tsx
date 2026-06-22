@@ -497,10 +497,11 @@ export default function Home() {
       <section className="image-wall" aria-labelledby="image-wall-title">
         <div className="image-wall-heading">
           <p className="eyebrow">Modern lighting wall</p>
-          <h2 id="image-wall-title">更多现代灯具造型，一眼看完整体氛围。</h2>
+          <h2 id="image-wall-title">More modern fixture silhouettes, all in one richer view.</h2>
           <p>
-            从餐厅吊灯、浴室镜前灯到户外花园灯，把更多真实产品和空间图片放到页面中，
-            让浏览节奏更像完整灯具商城。
+            From dining chandeliers and vanity bars to outdoor garden lights,
+            the page now carries more real product and room imagery for a fuller
+            lighting-store browsing rhythm.
           </p>
         </div>
         <div className="image-wall-grid">
@@ -518,7 +519,7 @@ export default function Home() {
         <div className="shop-header">
           <div>
             <p className="eyebrow">Popular lighting</p>
-            <h2>更多现代灯具产品，按空间与功能浏览。</h2>
+            <h2>More modern lighting products, organized by space and function.</h2>
           </div>
           <div className="sort-control">
             <span>Sort by</span>
